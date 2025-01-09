@@ -31,6 +31,7 @@ class Shop:
                 print(f'Продукт {i.name} уже есть в магазине')
             else:
                 file.write(f'{i} \n')
+                file.close()
 
 
 
