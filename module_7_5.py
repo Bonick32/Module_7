@@ -1,7 +1,6 @@
 import os
 import time
 directory = os.getcwd()
-print(directory)
 
 for root, dirs, files in os.walk(f'{directory}'):
     for file in files:
